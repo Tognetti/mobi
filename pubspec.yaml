@@ -1,0 +1,62 @@
+name: mobi
+description: Plataforma para promover o uso da bicicleta e a integração entre os ciclistas 
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  url_launcher: ^6.0.12
+  flutter_launcher_icons: ^0.9.2
+  flutter_speed_dial: ^4.3.0
+  material_floating_search_bar: ^0.3.4
+  geolocator: ^7.0.3
+  firebase_core: ^1.1.0
+  image_picker: ^0.7.4
+  cloud_firestore: ^1.0.7
+  firebase_auth: ^1.1.2
+  firebase_storage: ^8.0.5
+  location: ^4.1.1
+  google_maps_flutter: ^2.0.3
+  intl: ^0.17.0
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter_icons:
+  android: true
+  ios: false
+  image_path: "lib/assets/images/mobi_logo_icon.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - lib/assets/images/mobi_logo.png
+    - lib/assets/images/avatar.png
+    - lib/assets/images/bike4.png
+    - lib/assets/images/bike1.png
+    - lib/assets/images/bike5.png
+    - lib/assets/images/bike6.png
+    - lib/assets/images/background.jpg
+    - lib/assets/images/bike_background.jpg
+    - lib/assets/images/bike_background.png
+    - lib/assets/images/help_icon.png
+    - lib/assets/images/alert_icon.png
+    - lib/assets/images/activity_icon.png
+    - lib/assets/images/map_icon.png
+    - lib/assets/images/handshake_icon.png

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "397379905793",
+    "firebase_url": "https://mobiaplicativo.firebaseio.com",
+    "project_id": "mobiaplicativo",
+    "storage_bucket": "mobiaplicativo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:397379905793:android:906931c1bd718bfed35300",
+        "android_client_info": {
+          "package_name": "com.ufpr.mobi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "397379905793-s47oq13j197p2g1pjbalpf5eck26uc25.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAy33ALZPe1dpP_5q7uvAuzzcsUq0YfY34"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "397379905793-s47oq13j197p2g1pjbalpf5eck26uc25.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
